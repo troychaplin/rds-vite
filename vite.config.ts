@@ -16,9 +16,9 @@ export default defineConfig(() => ({
     build: {
         lib: {
             entry: resolve('src', 'index.ts'),
-            name: 'design-ui',
+            name: 'rds-vite',
             formats: ['es', 'umd'],
-            fileName: (format) => `design-ui.${format}.js`,
+            fileName: (format) => `rds-vite.${format}.js`,
         },
         rollupOptions: {
             external: [...Object.keys(packageJson.peerDependencies)],

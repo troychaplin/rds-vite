@@ -1,10 +1,10 @@
 {
-    "name": "@troychaplin79/design-ui",
+    "name": "@troychaplin79/rds-vite",
     "private": false,
-    "version": "0.0.19",
+    "version": "0.0.0",
     "type": "module",
-    "main": "dist/design-ui.cjs.js",
-    "module": "dist/design-ui.es.js",
+    "main": "dist/rds-vite.cjs.js",
+    "module": "dist/rds-vite.es.js",
     "types": "dist/index.d.ts",
     "files": [
         "/dist",
