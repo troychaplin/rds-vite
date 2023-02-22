@@ -1,8 +1,6 @@
-# Design UI
+# RDS Vite Test
 
 ![npm](https://img.shields.io/npm/v/@troychaplin79/rds-vite)
-
-Personal design system and react component library of [Troy Chaplin](https://github.com/troychaplin)
 
 The library is built with:
 
