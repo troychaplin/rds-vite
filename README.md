@@ -1,6 +1,6 @@
 # Design UI
 
-![npm](https://img.shields.io/npm/v/@troychaplin79/design-ui)
+![npm](https://img.shields.io/npm/v/@troychaplin79/rds-vite)
 
 Personal design system and react component library of [Troy Chaplin](https://github.com/troychaplin)
 
@@ -34,21 +34,21 @@ yarn build
 
 ## Deployment
 
-This project uses GitHub Actions to deploy the [NPM Package](https://www.npmjs.com/package/@troychaplin79/design-ui) and to build the [Storybook docs](https://troychaplin.github.io/design-ui/).
+This project uses GitHub Actions to deploy the [NPM Package](https://www.npmjs.com/package/@troychaplin79/rds-vite) and to build the [Storybook docs](https://troychaplin.github.io/rds-vite/).
 
 ## How to use in a project
 
 Install the package:
 
 ```
-yarn add @troychaplin79/design-ui
+yarn add @troychaplin79/rds-vite
 ```
 
 Import the css file:
 
 ```css
 /* yourmaincssfile.css */
-@import '../node_modules/@troychaplin79/design-ui/dist/index.css';
+@import '../node_modules/@troychaplin79/rds-vite/dist/index.css';
 ```
 
 ## TailwindCSS
@@ -61,7 +61,7 @@ The CSS for this library is built with Tailwind. If the project you are building
 @tailwind components;
 @tailwind utilities;
 
-@import '../node_modules/@troychaplin79/design-ui/dist/index.css';
+@import '../node_modules/@troychaplin79/rds-vite/dist/index.css';
 ```
 
 Update your [Tailwind config file](https://tailwindcss.com/docs/configuration):
@@ -69,7 +69,7 @@ Update your [Tailwind config file](https://tailwindcss.com/docs/configuration):
 ```javascript
 // tailwind.config.js
 module.exports = {
-    content: ['./node_modules/@troychaplin79/design-ui/**/*.{js,ts,jsx,tsx}'],
+    content: ['./node_modules/@troychaplin79/rds-vite/**/*.{js,ts,jsx,tsx}'],
 }
 ```
 
